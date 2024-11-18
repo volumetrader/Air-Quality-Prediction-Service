@@ -1,8 +1,8 @@
 name: air-quality-daily
 on:
  workflow_dispatch:
- schedule:
-   - cron:  '0 0 * * *'
+ #schedule:
+ #  - cron:  '0 0 * * *'
 jobs:
  schedule_pipelines:
    runs-on: ubuntu-latest
